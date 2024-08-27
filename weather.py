@@ -15,7 +15,8 @@ def format_temperature(temp):
     """
     return f"{temp}{DEGREE_SYMBOL}"
 
-
+#dg cato
+# add random
 def convert_date(iso_string):
     """Converts and ISO formatted date into a human-readable format.
 

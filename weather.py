@@ -15,8 +15,7 @@ def format_temperature(temp):
     """
     return f"{temp}{DEGREE_SYMBOL}"
 
-#dg cato
-# add random
+
 def convert_date(iso_string):
     """Converts and ISO formatted date into a human-readable format.
 
@@ -36,7 +35,8 @@ def convert_f_to_c(temp_in_fahrenheit):
     Returns:
         A float representing a temperature in degrees Celcius, rounded to 1 decimal place.
     """
-    pass
+    temp_in_celius = (float(temp_in_fahrenheit) - 32) * 5 / 9
+    return round(temp_in_celius, 1)
 
 
 def calculate_mean(weather_data):
